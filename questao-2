@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+echo "Letícia - GitHub"
 echo "Digite um número para descobrir seu fatorial: "
 read num
 
