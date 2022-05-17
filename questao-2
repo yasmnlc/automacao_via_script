@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+echo "Digite um número para descobrir seu fatorial: "
+read num
+
+fat=1
+
+if [ $num -gt 0 ]; then
+	for ((i=1; i <= $num ; i++))
+	do
+
+	fat=$(($fat*$i))
+
+	done
+
+	echo "O fatorial de $num é: $fat "
+
+else
+	echo "Tente com um número positivo, inteiro e diferente de zero"
+
+fi
